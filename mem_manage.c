@@ -29,7 +29,7 @@ int main()
   printf("&ptr2: %p \n", &ptr2);
   printf("&ptr3: %p \n", &ptr3);
   printf("=================================.\n");
-  printf("While their value point to memory address allocated on the heap.\n");
+  printf("While their value points to the memory address allocated on the heap.\n");
   printf("ptr1: %p \n", ptr1);
   printf("ptr2: %p \n", ptr2);
   printf("ptr3: %p \n", ptr3);
@@ -41,6 +41,6 @@ int main()
   printf("var3: %p \n", var3);
   printf("=================================.\n");
 
-  printf("start fucntion stack\n");
+  printf("start function stack\n");
   func(5);
 }
